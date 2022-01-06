@@ -35,8 +35,11 @@ const AboutUs = () => {
                   You relly thought i was going to put something here? Anyway made by Adetifa_Bolu
                 </p>
                 <a href="/boluadetifa@gmail.com" class="text-center">
-                  Email: boluadetifa@gmail.com
+                  <p>
+                  Email: boluadetifa@gmail.com</p>
                 </a>
+                <br/>
+                <br/>
              </div>
 
             </>
