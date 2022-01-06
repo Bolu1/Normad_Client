@@ -5,7 +5,7 @@ const Hnav = () => {
         <>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-        <a href="#" class="navbar-brand">Normad</a>
+        <a href="/" class="navbar-brand">Normad</a>
 
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
              <span class="navbar-toggler-icon"></span>

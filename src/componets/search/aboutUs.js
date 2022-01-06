@@ -31,11 +31,13 @@ const AboutUs = () => {
             <div class="container">
                 <h3 class="text-center">Normad</h3>
                 <br/>
-                <p class="text-center">
-                  You relly thought i was going to put something here? Anyway made by Adetifa_Bolu
-                </p>
+                <h4 class="text-center">
+                  You really thought i was going to put something here? Anyway made by Adetifa_Bolu
+                </h4>
+                <br/>
+                <br/>
                 <a href="/boluadetifa@gmail.com" class="text-center">
-                  <p>
+                  <p class="text-center">
                   Email: boluadetifa@gmail.com</p>
                 </a>
                 <br/>
