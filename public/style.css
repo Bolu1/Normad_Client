@@ -1,0 +1,166 @@
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+
+    .filters{
+        padding-top: 7px;
+    }
+}
+
+.footer{
+    bottom: 0;
+    text-align: center;
+    height: 20vh;
+    background-color: black;
+}
+
+.results{
+    /* min-height: 110vh; */
+}
+
+.search-box{
+    text-align: center;
+    display: flex
+}
+
+.filters{
+    padding-left: 50px;
+}
+
+.filters button{
+    border: 1px solid black;
+}
+
+.instance img{
+    height: 170px;
+    width: 160px;
+}
+
+.instance button{
+    margin-left: 50px;
+    background: white;
+    height: 40px;
+}
+
+.jobName{
+    min-height: 300px;
+}
+.notFound{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.instances{
+    border: 0px solid white;
+}
+
+.instances img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.remote{
+    /* margin-left: 50px; */
+    /* justify-content: end; */
+    margin-left: auto;
+    background: white;
+    height: 40px;
+    transition:100000000000000000000000000000000000000000000000000000000000ms;
+    cursor: text;
+}
+
+.remote1{
+    /* margin-left: 50px; */
+    /* justify-content: end; */
+    margin-left: auto;
+    height: 40px;
+}
+
+.auth-box{
+    /* position: absolute;  */
+
+    width: 600px;
+    justify-self: center;
+}
+
+.auth-form{
+    display: flex;
+    justify-content: center;
+
+}
+
+.auth-form button{
+    justify-self: center;
+    align-self: center;
+}
+
+.image-box img{
+    height: 170px;
+    width: 170px;
+}
+
+.nav-image-box img{
+    height: 50px;
+    width: 50px;
+}
+.nav-image-box{
+    height: 50px;
+    width: 50px;
+    border: 0px solid blaCK;
+}
+
+.image-box{
+    border: 0px solid blaCK;
+}
+
+.avatar-block{
+
+    color: transparent;
+}
+
+.pic-text{
+    background: transparent;
+    transition: 2s;
+}
+
+.pic-text h3{
+    text-align: center;
+    color: transparent;
+}  
+
+.pic-text:hover h3{
+    transition: 2s;
+    color: white
+}
+
+.pic-text:hover{
+    transition: 2s;
+    background: rgba(15, 15, 15, 0.5);
+}
+/* transform: translateX(-50%); */
+
+.delete-btn{
+    border: 1px solid black;
+}
+
+.switch{
+    border-bottom: 1px solid black;
+}
+
+.job{
+    border: 0px solid black;
+}
+
+.job img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.wrapThing{
+    min-height: "5000px";
+}
+
