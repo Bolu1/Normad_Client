@@ -29,7 +29,8 @@ const AboutUs = () => {
             <br/>
            
             <div class="container">
-                <h3 class="text-center">Normad</h3>
+                {/* <h3 class="text-center">Normad</h3> */}
+                <br/>
                 <br/>
                 <h4 class="text-center">
                   You really thought i was going to put something here? Anyway made by Adetifa_Bolu
