@@ -17,7 +17,7 @@ const Home = () => {
                 <div class="my-5">
                     <h1>Get <span class="text-warning">Non technical jobs </span></h1>
                     <p class="lead my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis dolor nulla sequi, atque eum animi, deserunt est, inventore et voluptate placeat! Cumque nesciunt deserunt ratione ex laudantium consectetur. Saepe?</p>
-                    <a href="">
+                    <a href="/signup" >
                     <button href="/signup" type="button" class="btn btn-light btn-lg ">Join us</button> 
                     </a>
                 </div>
