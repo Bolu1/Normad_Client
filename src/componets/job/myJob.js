@@ -98,7 +98,7 @@ const MyJob = () => {
                         <p class="card-text"><small class="text-muted">{results.dateAdded}</small></p>
                         
                         <button type="button" class="btn btn-dark text-dark remote">
-                        Remote 
+                        {result.type} 
                         </button>
 
                         <button type="button" class="btn ml-2 btn-dark text-light remote1" onClick={() => edit(results._id)}>
@@ -111,7 +111,7 @@ const MyJob = () => {
                          {/* <p class="mr-5">Posted by <strong>empname</strong></p> */}
                          {/* <p class="mx-5">address</p> */}
                          <h5 class="my-4">Pay: ${results.pay}</h5>
-                         <p class="my-4 " style={{marginLeft:"auto"}}>address</p>
+                         <p class="my-4 " style={{marginLeft:"auto"}}>{result.location}</p>
                          </div>
                     </div>
                     

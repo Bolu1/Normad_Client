@@ -22,9 +22,9 @@ const Hnav = () => {
 
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                {/* <li class="nav-item">
                     <a href="/jobs" class="nav-link mt-3">Jobs</a>
-                </li>
+                </li> */}
                 <li class="nav-item">
                     <a href="/search" class="nav-link mt-3">Search</a>
                 </li>
@@ -50,7 +50,7 @@ const Hnav = () => {
     </div>
     </nav>
     <br/>
-    {/* <br/> */}
+    <br/>
     </>
     )
 }

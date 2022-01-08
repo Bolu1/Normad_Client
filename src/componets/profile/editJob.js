@@ -172,7 +172,7 @@ const EditJob = () => {
                 </div>
 
 
-                <button type="submit" class="btn btn-dark px-4 btn-md">Add</button>
+                <button type="submit" class="btn btn-dark px-4 btn-md">Edit</button>
                 </form>
                 <br/>
             </div>
