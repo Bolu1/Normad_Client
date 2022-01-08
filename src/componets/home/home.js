@@ -65,7 +65,7 @@ const Home = () => {
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                             </p>
-                            <a href="#" class="btn btn-light btn1">Read More</a>
+                            {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const Home = () => {
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                             </p>
-                            <a href="#" class="btn btn-light btn1">Read More</a>
+                            {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ const Home = () => {
                         <p class="card-text">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                         </p>
-                        <a href="#" class="btn btn-light btn1">Read More</a>
+                        {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ const Home = () => {
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                             </p>
-                            <a href="#" class="btn btn-light btn1">Read More</a>
+                            {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ const Home = () => {
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                             </p>
-                            <a href="#" class="btn btn-light btn1">Read More</a>
+                            {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ const Home = () => {
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
                             </p>
-                            <a href="#" class="btn btn-light btn1">Read More</a>
+                            {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
                     </div>
                 </div>
