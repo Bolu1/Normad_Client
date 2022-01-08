@@ -26,7 +26,7 @@ const Setttings = () => {
             token: auth.token
         }
         const get = async() =>{
-        const res = await fetch(`http://localhost:8000/profile`, {
+        const res = await fetch(`https://normadclient.herokuapp.com/profile`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ const Setttings = () => {
             portfolio: data.portfolio
         }
         const get = async() =>{
-        const res = await fetch(`http://localhost:8000/editProfile`, {
+        const res = await fetch(`https://normadclient.herokuapp.com/editProfile`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

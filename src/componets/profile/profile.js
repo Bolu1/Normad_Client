@@ -43,7 +43,7 @@ const Profile = () => {
         token: auth.token
     }
     const get = async() =>{
-    const res = await fetch(`http://localhost:8000/profile`, {
+    const res = await fetch(`https://normadclient.herokuapp.com/profile`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -55,7 +55,7 @@ const Profile = () => {
     // console.log(result)
 
  
-    const resu = await fetch(`http://localhost:8000/profileJob`, {
+    const resu = await fetch(`https://normadclient.herokuapp.com/profileJob`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -78,7 +78,7 @@ const Profile = () => {
             token: auth.token
         }
         const get = async() =>{
-        const res = await fetch(`http://localhost:8000/getYourApplication`, {
+        const res = await fetch(`https://normadclient.herokuapp.com/getYourApplication`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -97,7 +97,7 @@ const Profile = () => {
             token: auth.token
         }
         const get = async() =>{
-        const resu = await fetch(`http://localhost:8000/profileJob`, {
+        const resu = await fetch(`https://normadclient.herokuapp.com/profileJob`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -118,7 +118,7 @@ const Profile = () => {
             token: auth.token,
             post: id
         }
-        const resu = await fetch(`http://localhost:8000/deleteJob`, {
+        const resu = await fetch(`https://normadclient.herokuapp.com/deleteJob`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -134,7 +134,7 @@ const Profile = () => {
             token: auth.token,
             post: id
         }
-        const resu = await fetch(`http://localhost:8000/deleteApp`, {
+        const resu = await fetch(`https://normadclient.herokuapp.com/deleteApp`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

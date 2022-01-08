@@ -40,7 +40,7 @@ const EditJob = () => {
             token: auth.token
         }
         const get = async() =>{
-        const res = await fetch(`http://localhost:8000/getJobDetails?post=${id}`, {
+        const res = await fetch(`https://normadclient.herokuapp.com/getJobDetails?post=${id}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -86,7 +86,7 @@ const EditJob = () => {
             
         }
         const get = async() =>{
-        const res = await fetch(`http://localhost:8000/editJob?post=${id}`, {
+        const res = await fetch(`https://normadclient.herokuapp.com/editJob?post=${id}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

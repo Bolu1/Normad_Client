@@ -29,7 +29,7 @@ const Job = () => {
 
         const get = async() =>{
             
-            const response = await fetch(`http://localhost:8000/findOne?post=${id}`, {
+            const response = await fetch(`https://normadclient.herokuapp.com/findOne?post=${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -67,7 +67,7 @@ const Job = () => {
 
         const get = async() =>{
             
-            const response = await fetch(`http://localhost:8000/apply`, {
+            const response = await fetch(`https://normadclient.herokuapp.com/apply`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

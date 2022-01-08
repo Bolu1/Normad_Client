@@ -35,7 +35,7 @@ const MyJob = () => {
 
         const get = async() =>{
             
-            const response = await fetch(`http://localhost:8000/findMyOne?post=${id}`, {
+            const response = await fetch(`https://normadclient.herokuapp.com/findMyOne?post=${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
