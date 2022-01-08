@@ -111,7 +111,7 @@ const MyJob = () => {
                          {/* <p class="mr-5">Posted by <strong>empname</strong></p> */}
                          {/* <p class="mx-5">address</p> */}
                          <h5 class="my-4">Pay: ${results.pay}</h5>
-                         <p class="my-4 " style={{marginLeft:"auto"}}>{s.location}</p>
+                         <p class="my-4 " style={{marginLeft:"auto"}}>{results.location}</p>
                          </div>
                     </div>
                     
