@@ -176,7 +176,7 @@ const EditJob = () => {
                 </form>
                 <br/>
             </div>
-            <Footer />
+            <Footer /> 
         </>
     )
 }
