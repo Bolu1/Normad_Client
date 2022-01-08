@@ -222,8 +222,8 @@ const Job = () => {
                             You have applied for this job
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary bg-dark" data-bs-dismiss="modal">No</button>
-                            <button  type="button" class="btn btn-primary bg-light text-dark delete-btn" data-bs-dismiss="modal">Yes</button>
+                            <button type="button" class="btn btn-secondary bg-dark" data-bs-dismiss="modal">Ok</button>
+                            {/* <button  type="button" class="btn btn-primary bg-light text-dark delete-btn" data-bs-dismiss="modal">Ok</button> */}
                         </div>
                         </div>
                     </div>

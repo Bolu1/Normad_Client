@@ -72,64 +72,64 @@ const Setttings = () => {
             <Nav />
                 <br/>
                 <br/>
-                <h1 class="text-center mt-5">Select your avatar</h1>
+                <h1 class="text-center mt-5">Select your avatar(Comming soon)</h1>
                 <br/>
                 <br/>
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
+                        <div class="card mb-3 text-center d-flex text-white " style={{height:"400px"}}>
+                            <img class="card-img img-fluid" src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image" style={{height:"400px"}}/>
                             <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
+                                <h3 class="align-self-center text-center">Awe</h3>
                             </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
+                        <div class="card mb-3 text-center d-flex text-white" style={{height:"400px"}}>
+                            <img class="card-img " src="img/bonus.jpg" alt="Card image" style={{height:"400px"}}/>
                             <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
-                            </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
-                            <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
+                                <h3 class="align-self-center text-center">MonaLEAH</h3>
                             </div>
                             </div>
                         </div>
 
 
                         <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
+                        <div class="card mb-3 text-center d-flex text-white" style={{height:"400px"}}>
+                            <img class="card-img " src="img/melodrama.jpg" alt="Card image" style={{height:"400px"}}/>
                             <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
+                                <h3 class="align-self-center text-center">Melodrama</h3>
                             </div>
                             </div>
                         </div>
 
 
                         <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
+                        <div class="card mb-3 text-center d-flex text-white" style={{height:"400px"}}>
+                            <img class="card-img " src="img/eye to eye.jpg" alt="Card image" style={{height:"400px"}}/>
                             <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
+                                <h3 class="align-self-center text-center">Eye to Eye</h3>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 d-flex text-center avatar-block">
+                        <div class="card mb-3 text-center d-flex text-white" style={{height:"400px"}}>
+                            <img class="card-img " src="img/pac moon.jpg" alt="Card image" style={{height:"400px"}}/>
+                            <div class="card-img-overlay align-self-center text-center d-flex pic-text">
+                                <h3 class="align-self-center text-center">Pac Moon</h3>
                             </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex text-center avatar-block">
-                        <div class="card mb-3 text-center d-flex text-white">
-                            <img class="card-img " src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image"/>
+                        <div class="card mb-3 text-center d-flex text-white" style={{height:"400px"}}>
+                            <img class="card-img " src="img/Mystique.jpg" alt="Card image" style={{height:"400px"}}/>
                             <div class="card-img-overlay align-self-center text-center d-flex pic-text">
-                                <h3 class="align-self-center text-center">Gentle Panda</h3>
+                                <h3 class="align-self-center text-center">Mystique</h3>
                             </div>
                             </div>
                         </div>

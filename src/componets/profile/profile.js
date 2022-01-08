@@ -161,6 +161,7 @@ const Profile = () => {
                 <section class="bg-dark ">
                     <div class="container">
                     <div class="card mx-3 py-3 d-flex bg-dark text-light image-box" >
+                        <br/>
                         <img class="card-img-top img-fluid rounded-circle mb-2 align-self-center" src="img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Card image cap"/>
                         <div class="d-flex card-body align-self-center">
                             <h4 class="card-text"><strong>{values.name}</strong></h4> 
