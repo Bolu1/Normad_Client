@@ -154,6 +154,7 @@ const Profile = () => {
             <Nav />
                 <br/>
                 <br/>
+                <br/>
 
                 {/* { console.log(value)} */}
                 { value && value.map(values =>(
@@ -219,8 +220,8 @@ const Profile = () => {
                         </ul></p> */}
                     <ul class="nav justify-content-center mb-4 switch">
                     <li class="nav-item d-flex">
-                    <button type="button" class="btn btn-dark align-self-center align-self-start mx-5 mb-3 px-4" onClick={getJobs}>Jobs</button>
-                    <button type="button" class="btn btn-dark align-self-center align-self-start mx-5 mb-3" onClick={applications}>Applications</button>
+                    <button type="button" class="btn btn-dark align-self-center align-self-start mx-5 mb-3 px-4" onClick={getJobs}>My Jobs</button>
+                    <button type="button" class="btn btn-dark align-self-center align-self-start mx-5 mb-3" onClick={applications}>MY Applications</button>
                     </li>
 
                     </ul>
@@ -238,7 +239,7 @@ const Profile = () => {
                             <img src="./img/diego-ph-fIq0tET6llw-unsplash.jpg" class="img-fluid rounded-start " alt="..."/>
                             </div>
                             <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body mt-5">
                                 <h5 class="card-title">{jobs.title}</h5>
                                 <p class="card-text"></p>
                                 <div class="d-flex">
@@ -333,9 +334,7 @@ const Profile = () => {
                                 <button  class="btn mx-3 btn-danger text-light remote1" data-bs-toggle="modal" data-bs-target="#job">
                                 Delete 
                                 </button>)
-                                :<button class="btn mx-3 btn-danger text-light remote1" data-bs-toggle="modal" data-bs-target="#app">
-                                Delete 
-                                </button>}
+                                :<p></p>}
                     </div>
 
                     <div class="modal fade" id="job" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

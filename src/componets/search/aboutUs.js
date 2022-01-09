@@ -17,11 +17,12 @@ const AboutUs = () => {
             <Nav />
             <br/>
             <br/>
+            <br/>
             {/* ------job type------- */}
 
             <>
             <section class="bg-dark text-light jobName d-flex">
-                <div className="container d-sm-flex align-self-center justify-content-center">
+                <div className="container d-flex align-self-center justify-content-center">
                     <h1>About us</h1>
                 </div>
             </section>
@@ -37,10 +38,11 @@ const AboutUs = () => {
                 </h4>
                 <br/>
                 <br/>
-                <a href="/boluadetifa@gmail.com" class="text-center">
+                <a href="mailto:boluadetifa@gmail.com" class="text-center">
                   <p class="text-center">
                   Email: boluadetifa@gmail.com</p>
                 </a>
+                <br/>
                 <br/>
                 <br/>
              </div>

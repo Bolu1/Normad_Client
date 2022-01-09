@@ -148,6 +148,7 @@ const OtherProfile = () => {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
                 {/* { console.log(value)} */}
                 { value && value.map(values =>(
                 <div>

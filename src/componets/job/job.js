@@ -94,7 +94,7 @@ const Job = () => {
             { value && value.map(results=>(
             <>
             <section class="bg-dark text-light jobName d-flex">
-                <div className="container d-sm-flex align-self-center justify-content-center">
+                <div className="container d-flex align-self-center justify-content-center">
                     <h1>{results.category}</h1>
                 </div>
             </section>

@@ -111,7 +111,7 @@ const Home = () => {
                             <i class="bi bi-laptop"></i>
                             </div>
                             <h3 class="class-title mb-3">
-                                Accountant
+                                Social Media
                             </h3>
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
@@ -128,7 +128,7 @@ const Home = () => {
                             <i class="bi bi-laptop"></i>
                             </div>
                             <h3 class="class-title mb-3">
-                                Accountant
+                                Marketing
                             </h3>
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
@@ -145,7 +145,7 @@ const Home = () => {
                             <i class="bi bi-laptop"></i>
                             </div>
                             <h3 class="class-title mb-3">
-                                Accountant
+                                Community Lead
                             </h3>
                             <p class="card-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
@@ -209,11 +209,11 @@ const Home = () => {
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Do i need a brain
+                      Doi i need technical skills
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
-                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quod nostrum minima repudiandae quasi exercitationem cum voluptatum iste repellendus eveniet, eligendi error voluptas voluptates expedita repellat incidunt natus dolorem assumenda.</div>
+                    <div class="accordion-body">No you do not</div>
                   </div>
                 </div>
 
@@ -224,7 +224,7 @@ const Home = () => {
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
-                    <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque optio delectus tenetur laudantium sapiente cum quod distinctio, dignissimos fugit. Delectus ex velit vel cupiditate quae dignissimos quidem nam! Minus.</div>
+                    <div class="accordion-body">Yes it is</div>
                   </div>
                 </div>
 
@@ -235,7 +235,7 @@ const Home = () => {
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
-                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a voluptate impedit debitis quidem harum itaque. Eaque fuga natus perspiciatis doloremque animi repellat veritatis sunt. Voluptatibus, enim soluta! Maxime, incidunt?</div>
+                    <div class="accordion-body">No it is not</div>
                   </div>
                 </div>
               </div>

@@ -152,8 +152,9 @@ const EditJob = () => {
                 style={{ paddingRight:"300px", paddingBottom:"5px"}}
             >  
                 <option>Remote</option>
-                <option>On location</option> 
+                <option>Site</option> 
             </select>
+            {console.log("ttype"+data.type)}
 
 
                 <div class="form-group mt-5 mb-5">

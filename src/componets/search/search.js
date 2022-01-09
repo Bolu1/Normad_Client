@@ -15,24 +15,26 @@ const Jobs = () => {
     const dispatch = useDispatch()
     const useparams = useParams()
 
-//     useEffect(() =>{
-//     dispatch(getJobs())
-//   }, [dispatch])
+
 
     // var results = []
     // const[results, setResults] = useState([])
     const[post, setPost] = useState({post:""})
     const[img, setImg] = useState([])
 
+    useEffect(() =>{
+        dispatch(search(post)) 
+    }, [])
     
     const OnSubmit = (e) =>{
         e.preventDefault()
         dispatch(search(post)) 
 
+
     }
 
     const results = (useSelector((state) => state.jobs))
-    console.log(results)
+    // console.log(results)
 
     const submit = (id) =>{
         // console.log(id)

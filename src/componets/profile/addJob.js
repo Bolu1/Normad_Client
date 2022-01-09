@@ -18,6 +18,7 @@ const AddJob = () => {
         location: "",
         category: "",
         skills: '',
+        type: 'Remote',
         experience: ''
     })
 
@@ -64,24 +65,24 @@ const AddJob = () => {
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1"><strong>Title</strong></label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"  value={data.title} onChange={(e)=>setdata({...data, title: e.target.value})}/>
+                    <input placeholder='Enter title of job'type="text" class="form-control" id="exampleFormControlInput1"  value={data.title} onChange={(e)=>setdata({...data, title: e.target.value})}/>
                 </div>
 
                 <div class="form-group mt-5">
                     <label for="exampleFormControlTextarea1"><strong>Description</strong></label>
-                    <textarea class="form-control xl" id="exampleFormControlTextarea1" rows="3" value={data.description} onChange={(e)=>setdata({...data, description: e.target.value})}></textarea>
+                    <textarea placeholder='Include job title in description' class="form-control xl" id="exampleFormControlTextarea1" rows="3" value={data.description} onChange={(e)=>setdata({...data, description: e.target.value})}></textarea>
                 </div>
 
                 {/* <br/>
                 <br/> */}
                 <div class="form-group mt-5 mb-5">
                     <label for="exampleFormControlInput1 "><strong>Category</strong></label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"  value={data.category} onChange={(e)=>setdata({...data, category: e.target.value})}/>
+                    <input placeholder='E.g HR, Accounting, CC, Social media mgt, Others' type="text" class="form-control" id="exampleFormControlInput1"  value={data.category} onChange={(e)=>setdata({...data, category: e.target.value})}/>
                 </div>
 
                 <div class="form-group mt-5 mb-5">
                     <label for="exampleFormControlInput1 "><strong>Pay</strong></label>
-                    <input type="number" class="form-control" id="exampleFormControlInput1"  value={data.pay} onChange={(e)=>setdata({...data, pay: e.target.value})}/>
+                    <input placeholder='Enter pay in dollars' type="number" class="form-control" id="exampleFormControlInput1"  value={data.pay} onChange={(e)=>setdata({...data, pay: e.target.value})}/>
                 </div>
 
                 <label for="exampleFormControlInput1 "><strong>Type</strong></label>
@@ -95,13 +96,13 @@ const AddJob = () => {
                 style={{ paddingRight:"300px", paddingBottom:"5px"}}
             >  
                 <option>Remote</option>
-                <option>On location</option> 
+                <option>Site</option> 
             </select>
 
 
                 <div class="form-group mt-5 mb-5">
                     <label for="exampleFormControlTextarea1"><strong>Location</strong></label>
-                    <textarea class="form-control xl" id="exampleFormControlTextarea1" rows="3" value={data.location} onChange={(e)=>setdata({...data, location: e.target.value})}></textarea>
+                    <textarea placeholder='Detailed Location of Company' class="form-control xl" id="exampleFormControlTextarea1" rows="3" value={data.location} onChange={(e)=>setdata({...data, location: e.target.value})}></textarea>
                 </div>
 
                 <div class="form-group mt-5 mb-5">
