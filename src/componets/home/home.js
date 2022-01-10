@@ -16,7 +16,7 @@ const Home = () => {
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div class="my-5">
                     <h1>Get <span class="text-warning">Non technical jobs </span></h1>
-                    <p class="lead my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis dolor nulla sequi, atque eum animi, deserunt est, inventore et voluptate placeat! Cumque nesciunt deserunt ratione ex laudantium consectetur. Saepe?</p>
+                    <p class="lead my-4">Normad is a community built to help nontechnical personels get jobs in tech companies and also helps companies post jobs and find talented nontechnicals</p>
                     <a href="/signup" >
                     <button href="/signup" type="button" class="btn btn-light btn-lg ">Join us</button> 
                     </a>
@@ -63,7 +63,7 @@ const Home = () => {
                                 Accountant
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                                Join normad as an accountant to get accounting jobs
                             </p>
                             {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
@@ -80,7 +80,7 @@ const Home = () => {
                                 HR Personel
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                            Join normad as an HR personel to get  HR jobs
                             </p>
                             {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
@@ -97,7 +97,7 @@ const Home = () => {
                             Content creator
                         </h3>
                         <p class="card-text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                             Join normad as an content creator to get hired as a content creator
                         </p>
                         {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                     </div>
@@ -114,7 +114,7 @@ const Home = () => {
                                 Social Media
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                                  Join normad as a social media manager to get related jobs
                             </p>
                             {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
@@ -131,7 +131,7 @@ const Home = () => {
                                 Marketing
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                                Join normad as marketing expert to get hired as a marketer 
                             </p>
                             {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
@@ -148,7 +148,7 @@ const Home = () => {
                                 Community Lead
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi saepe fugiat ipsum laboriosam aliquid adipisci.
+                              Join normad and get a job as a community lead and so much more
                             </p>
                             {/* <a href="#" class="btn btn-light btn1">Read More</a> */}
                         </div>
@@ -168,9 +168,9 @@ const Home = () => {
                 <div class="col-md p-5">
                     <h2>Do stuff</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime totam odit ut! Molestiae, suscipit officiis.
+                    Tech companies are now the coolest places to work in and they are often ranked in the top list of the best places to work worldwide.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laboriosam minima? Atque quia nam rem commodi. Dolorem, magnam suscipit. Laboriosam adipisci eaque molestias placeat dicta eos minus nemo obcaecati deleniti.</p>
+                    <p>But then, there is a place for lots of other non-technical roles in tech companies. To begin your own tech career journey, we have a list of 10 roles in tech companies that do not require any technical experience or expertise.</p>
                     
                 </div>
             </div>
@@ -184,9 +184,9 @@ const Home = () => {
                 <div class="col-md p-5">
                     <h2>Do stuff</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime totam odit ut! Molestiae, suscipit officiis.
+                    Technology companies aren’t just hiring technical people though, they’re also hiring for non-technical roles in areas such as marketing, product, and design.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laboriosam minima? Atque quia nam rem commodi. Dolorem, magnam suscipit. Laboriosam adipisci eaque molestias placeat dicta eos minus nemo obcaecati deleniti.</p>
+                    <p>Technology jobs are projected to be among the fastest growing and are in demand due to the UK’s digital skills gap. According to this report, more than five million tech jobs are expected to be added globally by 2027.</p>
                     
                 </div>
                 <div class="col-md">
@@ -251,15 +251,15 @@ const Home = () => {
                 Remarks
             </h2>
             <p class="lead text-center text-white mb-5">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, architecto.
+                Remarks from reputable professionals(for demo only not real)
             </p>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
                             <img src="http://randomuser.me/api/portraits/men/11.jpg" alt="cheee" class="rounded-circle mb-3"/>
-                            <h3 class="card-title mb-3">Bosss</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae quod repellat. Ipsam eum iure deserunt voluptates perspiciatis ipsa officia eaque iste voluptatibus inventore! Quaerat vitae minima natus. Voluptate, delectus.</p>
+                            <h3 class="card-title mb-3">John Doe</h3>
+                            <p class="card-text">Normad helped me boost my career </p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-facebook text-dark mx-1"></a>
                             <a href="#" class="bi bi-linkedin text-dark mx-1"></a>
@@ -271,9 +271,9 @@ const Home = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="http://randomuser.me/api/portraits/men/11.jpg" alt="cheee" class="rounded-circle mb-3"/>
-                            <h3 class="card-title mb-3">Bosss</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae quod repellat. Ipsam eum iure deserunt voluptates perspiciatis ipsa officia eaque iste voluptatibus inventore! Quaerat vitae minima natus. Voluptate, delectus.</p>
+                            <img src="http://randomuser.me/api/portraits/men/12.jpg" alt="cheee" class="rounded-circle mb-3"/>
+                            <h3 class="card-title mb-3">John Bar</h3>
+                            <p class="card-text">Normad is one of the best i recommend using it</p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-facebook text-dark mx-1"></a>
                             <a href="#" class="bi bi-linkedin text-dark mx-1"></a>
@@ -285,9 +285,9 @@ const Home = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="http://randomuser.me/api/portraits/men/11.jpg" alt="cheee" class="rounded-circle mb-3"/>
-                            <h3 class="card-title mb-3">Bosss</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae quod repellat. Ipsam eum iure deserunt voluptates perspiciatis ipsa officia eaque iste voluptatibus inventore! Quaerat vitae minima natus. Voluptate, delectus.</p>
+                            <img src="http://randomuser.me/api/portraits/men/13.jpg" alt="cheee" class="rounded-circle mb-3"/>
+                            <h3 class="card-title mb-3">John Foo</h3>
+                            <p class="card-text">All i can say is Normad changed my life</p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-facebook text-dark mx-1"></a>
                             <a href="#" class="bi bi-linkedin text-dark mx-1"></a>
@@ -299,9 +299,9 @@ const Home = () => {
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="http://randomuser.me/api/portraits/men/11.jpg" alt="cheee" class="rounded-circle mb-3"/>
-                            <h3 class="card-title mb-3">Bosss</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae quod repellat. Ipsam eum iure deserunt voluptates perspiciatis ipsa officia eaque iste voluptatibus inventore! Quaerat vitae minima natus. Voluptate, delectus.</p>
+                            <img src="http://randomuser.me/api/portraits/men/14.jpg" alt="cheee" class="rounded-circle mb-3"/>
+                            <h3 class="card-title mb-3">John Noe</h3>
+                            <p class="card-text">NORMAD is not a typo, but any way Normad is a great platform</p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-facebook text-dark mx-1"></a>
                             <a href="#" class="bi bi-linkedin text-dark mx-1"></a>
