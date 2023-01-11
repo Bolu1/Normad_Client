@@ -1,20 +1,22 @@
-import axios from 'axios'
+import axios from "axios";
 
-const API = axios.create({ baseURL: "https://normadclient.herokuapp.com/" })
+const API = axios.create({ baseURL: "https://normad-server.onrender.com" });
 
-API.interceptors.request.use((req) =>{
-    if(localStorage.getItem('profile')){
-        req.headers.Authorization = `Bearer ${JSON.parse(localStorage.getItem('profile')).token}`
-    }
+API.interceptors.request.use((req) => {
+  if (localStorage.getItem("profile")) {
+    req.headers.Authorization = `Bearer ${
+      JSON.parse(localStorage.getItem("profile")).token
+    }`;
+  }
 
-    return req
-})
+  return req;
+});
 
-export const getJobs = () => API.get(`getAll`)
-export const signup = (auth) => API.post(`signup`, auth)
-export const signin = (auth) => API.post(`signin`, auth)
-export const search = (post) => API.post(`find`, post)
-export const findOne = (post) => API.post(`findOne`, post)
-export const addJob = (post) => API.post(`addJob`, post)
-export const profile = () => API.get('profile')
-export const profileJob = () => API.get('profileJob')
+export const getJobs = () => API.get(`getAll`);
+export const signup = (auth) => API.post(`signup`, auth);
+export const signin = (auth) => API.post(`signin`, auth);
+export const search = (post) => API.post(`find`, post);
+export const findOne = (post) => API.post(`findOne`, post);
+export const addJob = (post) => API.post(`addJob`, post);
+export const profile = () => API.get("profile");
+export const profileJob = () => API.get("profileJob");
